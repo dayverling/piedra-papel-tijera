@@ -1,3 +1,9 @@
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"
+></script>;
+
 // Generar numeros aleatorios entre 1 y 3
 function randomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -9,9 +15,9 @@ let pc = randomNumber(1, 3);
 let jugador = 0;
 
 const elecion = {
-  piedra: 1,
-  papel: 2,
-  tijera: 3,
+  elecion1: piedra,
+  elecion2: papel,
+  elecion3: tijera,
 };
 
 jugador = prompt("Elige 1 para piedra, 2 para papel, 3 para tijera");
